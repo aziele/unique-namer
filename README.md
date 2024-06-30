@@ -249,15 +249,14 @@ You can import `namer` in Python:
 ```python
 python
 >>> import namer
->>> namer.__version__
-'1.0.0'
+>>> namer.__doc__
+'Generate unique, human-readable, and memorable names or identifiers'
 ```
 
 You can also use `unique-namer` as a command-line tool:
 
 ```bash
-python -m namer -v
-'1.0.0'
+python -m namer
 ```
 
 ## 5. Usage
