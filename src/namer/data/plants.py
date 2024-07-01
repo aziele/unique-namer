@@ -153,7 +153,6 @@ PLANTS = [
     'tree',
     'tulip',
     'twig',
-    'vein',
     'vine',
     'violet',
     'weed',

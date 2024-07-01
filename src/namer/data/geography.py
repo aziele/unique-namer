@@ -46,7 +46,6 @@ GEOGRAPHY = [
     'deflation',
     'degrees',
     'delta',
-    'depression',
     'desert',
     'desertification',
     'drainage',

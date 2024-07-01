@@ -4,7 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "unique-namer"
-version = "1.0.0"
 description = "Generate unique, human-readable, and memorable names or identifiers"
 authors = [{name = "Andrzej Zielezinski", email = "a.zielezinski@gmail.com"}]
 readme = "README.md"
@@ -23,6 +22,10 @@ classifiers = [
 ]
 keywords = ["random", "unique", "name", "id", "generate", "namer"]
 requires-python = ">=3.6"
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "namer.__version__"}
 
 [project.urls]
 Homepage = "https://github.com/aziele/unique-namer"

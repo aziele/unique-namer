@@ -408,6 +408,7 @@ ADJECTIVES = [
     'consistent',
     'constant',
     'constitutional',
+    'contagious',
     'contemporary',
     'content',
     'continental',

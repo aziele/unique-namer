@@ -96,7 +96,6 @@ MOLECULAR_BIOLOGY = [
     'sequencing',
     'splicing',
     'supercoil',
-    'superinfection',
     'taqpolymerase',
     'telomerase',
     'telomere',

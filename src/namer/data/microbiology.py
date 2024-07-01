@@ -89,6 +89,7 @@ MICROBIOLOGY = [
     'stanley',
     'staphylococcus',
     'strains',
+    'superinfection',
     'theiler',
     'transmission',
     'variant',
