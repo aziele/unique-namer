@@ -11,7 +11,6 @@ def get_parser() -> argparse.ArgumentParser:
         'human-readable, and memorable names or identifiers',
         add_help=False
     )
-    
     parser.add_argument(
         '-v', '--version',
         action='version',
@@ -23,14 +22,16 @@ def get_parser() -> argparse.ArgumentParser:
         action='help',
         help='Show this help message and exit'
     )
-
+    # Subparsers
     subparsers = parser.add_subparsers(dest='command')
+    # Stats subparser
     stats_parser = subparsers.add_parser(
         'stats',
         help='Show statistics on available categories and number of name '
             'combinations',
         add_help=False
     )
+    # Generate subparser
     generate_parser = subparsers.add_parser(
         'generate',
         help='Generate unique names/IDs',
@@ -67,11 +68,10 @@ def get_parser() -> argparse.ArgumentParser:
     )
     generate_parser.add_argument(
         '--style',
-        choices=('lowercase', 'uppercase', 'capitalize'),
+        choices=('lowercase', 'uppercase', 'title'),
         default='lowercase',
         help='Text style for the generated name [default: %(default)s]'
     )
-
     # Show help message if the script is run without any arguments.
     if len(sys.argv[1:]) == 0:
         parser.print_help()
@@ -86,41 +86,44 @@ def get_parser() -> argparse.ArgumentParser:
     return parser
 
 
-def print_stats_table(sep: Optional[str] = '  ') -> None:
+def print_stats_table(column_separator: Optional[str] = '  ') -> None:
     """
     Print a table with statistics for each category.
 
     Args:
-        sep (str, optional): Separator used to separate columns in the table. 
+        separator (str, optional): Separator used to separate columns in 
+            the table. Defaults to two spaces.
     """
+    # Get stats
     stats = namer.stats()
 
     # Determine column widths
-    category_column_width = max(len(category) for category in stats)
-    example_column_width = max(len(stat.example_name) for stat in stats.values())
-    nouns_column_width = 5
-    combs_column_width = 10
+    category_width = max(len(category) for category in stats)
+    example_name_width = max(len(stat.example_name) for stat in stats.values())
+    nouns_width = 5
+    combinations_width = 10
 
     # Table header
     header = [
-        f"{'Category':{category_column_width}}",
-        f"{'Nouns':{nouns_column_width}}",
-        f"{'Example':{example_column_width}}",
-        f"{'Name_combs':>{combs_column_width}}",
+        f"{'Category':{category_width}}",
+        f"{'Nouns':{nouns_width}}",
+        f"{'Example':{example_name_width}}",
+        f"{'Name_combs':>{combinations_width}}",
         f"{'ID_combs (4-char suffix)':}"
     ]
-    print(sep.join(header))
+    print(column_separator.join(header))
 
     # Table body
     for category, stat in stats.items():
         row = [
-            f"{category:{category_column_width}}",
-            f"{stat.noun_count:{nouns_column_width}}",
-            f"{stat.example_name:{example_column_width}}",
-            f"{stat.name_combinations:>{combs_column_width},}",
+            f"{category:{category_width}}",
+            f"{stat.noun_count:{nouns_width}}",
+            f"{stat.example_name:{example_name_width}}",
+            f"{stat.name_combinations:>{combinations_width},}",
             f"{stat.id_combinations:.0e}"
         ]
-        print(sep.join(row))
+        print(column_separator.join(row))
+
 
 def main():
     parser = get_parser()

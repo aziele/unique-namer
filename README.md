@@ -1,5 +1,7 @@
 # unique-namer
 
+![PyPI - Version](https://img.shields.io/pypi/v/unique-namer?label=version&color=blue)
+
 A Python package and command-line utility to generate unique, human-readable, and memorable names (e.g., `talented-toucan`, `naughty-watermelon`) and identifiers (e.g., `broken-radio-7ab4g`) across various categories such as science, animals, biology, etc.
 
 ### Features
@@ -48,7 +50,7 @@ Categories enable customization of generated names to align with the specific to
             <td></td>
             <td>__all__</td>
             <td>3150</td>
-            <td><code>touched-kilometer</code></td>
+            <td><code>awful-deadline</code></td>
             <td>7,465,500</td>
             <td>10<sup>13</sup></td>
         </tr>
@@ -136,7 +138,7 @@ Categories enable customization of generated names to align with the specific to
             <td>:triangular_ruler:</td>
             <td>math</td>
             <td>146</td>
-            <td><code>peachy prime</code></td>
+            <td><code>peachy-prime</code></td>
             <td>346,020</td>
             <td>10<sup>11</sup></td>
         </tr>
@@ -223,7 +225,7 @@ Categories enable customization of generated names to align with the specific to
 
 ## 3. Installation
 
-Install `unique-namer` from [PyPI](https://pypi.org/project/fastapy/):
+Install `unique-namer` from PyPI:
 
 ```bash
 pip install unique-namer
@@ -269,7 +271,7 @@ The `generate` function returns a string with a randomly generated name consisti
 import namer
 
 name = namer.generate()
-print(name)   # Example output: 'blushy-cyclist'
+print(name)   # Example: 'blushy-cyclist'
 ```
 
 #### `category` - str or list, default is an empty string
@@ -280,10 +282,10 @@ By default, `generate` randomly selects one category to pick a noun from. Catego
 import namer
 
 name = namer.generate(category='astronomy')
-print(name)   # Example output: 'crazy-supernova'                 
+print(name)   # Example: 'crazy-supernova'                 
 
 name = namer.generate(category=['physics', 'molecular_biology'])
-print(name)   # Example output: 'pink-bacteria'
+print(name)   # Example: 'pink-bacteria'
 ```
 
 #### `suffix_length` - int, default is `0`
@@ -294,7 +296,7 @@ Adds a random suffix of the specified length to the generated name to create a u
 import namer
 
 name = namer.generate(category='history', suffix_length=3)
-print(name)   # Example output: 'annoying-cleopatra-9a1'
+print(name)   # Example: 'annoying-cleopatra-9a1'
 ```
 
 #### `separator` - str, default is `'-'`
@@ -305,45 +307,47 @@ Specifies the separator to use between the adjective, noun, and suffix in the ge
 import namer
 
 name = namer.generate(category='sports', separator='_')
-print(name)   # Example output: 'savage_judo'
+print(name)   # Example: 'savage_judo'
 ```
 
-#### `style` - str, one of `capitalize`, `lowercase`, `uppercase`
+#### `style` - str, one of `title`, `lowercase`, `uppercase`
 
+Specifies the text case format of the generated name.
 
 ```python
 import namer
 
 name = namer.generate(suffix_length=5, style='uppercase')
-print(name)   # Example output: 'DAMAGED-ELECTRON-J20ZX'
+print(name)   # Example: 'DAMAGED-ELECTRON-J20ZX'
 
-name = namer.generate(separator=' ', style='capitalize')
-print(name)   # Example output: 'Lazy Unicorn'
+name = namer.generate(separator=' ', style='title')
+print(name)   # Example: 'Lazy Unicorn'
 ```
 
 ### 5.2. Customizing names
 
-To tailor generated names to specific project requirements (e.g., adding date or project name), you can use the `_generate` function. This function returns a Python list of name components, which you can modify and format them into a string name.
+To customize generated names for specific project requirements (e.g., adding date or project name), use the `_generate` function. This function returns a Python list of name components, which you can modify and format into a string name.
 
 ```python
 import namer
 
-name_parts = _generate(category='food', suffix_length=3)
-print(name_parts)   # Example output: ['macho', 'pizza', '7dx']
+# Generate name components
+name_components = _generate(category='food', suffix_length=3)
+print(name_components)   # Example: ['macho', 'pizza', '7dx']
 
-# Create your own generate function
+# Create custom generate function
 def my_generate(*args, separator='_', **kwargs):
-    name_parts = namer_generate(*args, **kwargs)
-    name_parts.insert(0, '2024')
-    return separator.join(name_parts)
+    name_components = namer_generate(*args, **kwargs)
+    name_components.insert(0, '2024')
+    return separator.join(name_components)
 
 name = my_generate(category='food', suffix_length=3)
-print(name)         # Example output: 2024-macho-pizza-7dx
+print(name)         # Example: 2024-macho-pizza-7dx
 ```
 
 ### 5.3. Getting category list
 
-You can retrieve the list of available categories using the `list_categories` function
+You can retrieve the list of available categories using the `list_categories` function.
 
 ```python
 import namer
@@ -359,7 +363,7 @@ print(namer.list_categories())
 
 ### 5.4. Adding custom categories
 
-You might want to provide your custom categories to use for generating unique names/IDs, in order to meet your project requirements. You can easily add your own categories by extending the `namer.data.categories` dictionary with lists of words representing your custom category.
+To generate names or IDs tailored to your project, you can add custom categories. Extend the `namer.data.categories` dictionary with lists of words representing your custom category.
 
 ```python
 import namer
@@ -368,12 +372,12 @@ import namer
 my_dogs = ['charlie', 'bella', 'biga']
 my_cats = ['tommy', 'lucy']
 
-# Add a custom category named my_pets containing both dogs and cats.
+# Add a custom category named 'my_pets' containing both dogs and cats
 namer.data.categories['my_pets'] = [my_dogs, my_cats]
 
-# Generate a name from the `my_pets` category
+# Generate a name from the 'my_pets' category
 name = namer.generate(category='pets')
-print(name)   # Example output: 'devout-tommy'
+print(name)   # Example: 'thankful-tommy'
 ```
 
 
@@ -402,33 +406,33 @@ namer stats
 Output:
 
 ```bash
-Category           Nouns  Example                       Name_combs  ID_combs (suffix 4)
-__all__             3150  associative_radian             7,465,500  1e+13
-animals              450  pure_sheep                     1,066,500  2e+12
-architecture         130  dapper_corbel                    308,100  5e+11
-astronomy            124  dying_relativity                 293,880  5e+11
-biology              832  braised_escherichia            1,971,840  3e+12
-chemistry            127  compassionate_thermodynamics     300,990  5e+11
-countries            182  arid_luxembourg                  431,340  7e+11
-computer_science     277  strong_programmer                656,490  1e+12
-food                 167  fluttering_stew                  395,790  7e+11
-geography            183  moaning_glacier                  433,710  7e+11
-history              149  inventive_chronicle              353,130  6e+11
-math                 146  buoyant_involute                 346,020  6e+11
-microbiology         101  chivalrous_microbiologist        239,370  4e+11
-misc                 355  dying_compressor                 841,350  1e+12
-molecular_biology    118  rapid_exonuclease                279,660  5e+11
-music                182  fried_allegro                    431,340  7e+11
-physics              135  abhorrent_quark                  319,950  5e+11
-plants               163  coffee_cantaloupe                386,310  6e+11
-science              605  hanging_momentum               1,433,850  2e+12
-scientists           101  equivalent_bernoulli             239,370  4e+11
-sports               123  acrid_javelin                    291,510  5e+11
+Category           Nouns  Example                  Name_combs  ID_combs (4-char suffix)
+__all__             3150  balanced_koch             7,465,500  1e+13
+animals              450  given_barnacle            1,066,500  2e+12
+architecture         130  allied_pelmet               308,100  5e+11
+astronomy            124  extended_micrometeoroid     293,880  5e+11
+biology              832  grandiose_hibiscus        1,971,840  3e+12
+chemistry            127  irate_electrolyte           300,990  5e+11
+countries            182  missing_ghana               431,340  7e+11
+computer_science     277  gnarly_query                656,490  1e+12
+food                 167  promoted_eggs               395,790  7e+11
+geography            183  dark_mortlake               433,710  7e+11
+history              149  lucky_caesar                353,130  6e+11
+math                 146  moderate_flag               346,020  6e+11
+microbiology         101  stiff_beijerinck            239,370  4e+11
+misc                 355  isochoric_mansion           841,350  1e+12
+molecular_biology    118  stirred_enzyme              279,660  5e+11
+music                182  innate_deanmartin           431,340  7e+11
+physics              135  left_power                  319,950  5e+11
+plants               163  ascent_bulb                 386,310  6e+11
+science              605  smoked_astronaut          1,433,850  2e+12
+scientists           101  jumbled_heisenberg          239,370  4e+11
+sports               123  zealous_athlete             291,510  5e+11
 ```
 
 ## 6.2. Generating names
 
-The `generate` command allows for creating customized lists of names or IDs based on specified parameters.
+The `generate` command creates a list of names or IDs based on specified parameters.
 
 ### Example 1: Generating 5 names
 
@@ -448,11 +452,11 @@ kingly-afforestation
 
 ### Example 2: Generating 10 IDs with custom parameters
 
-To generate 10 IDs from categories such as physics and biology, with a random suffix length of `3` characters, using `_` as a separator, and converting to capitals:
+To generate 10 IDs from the `physics` and `biology` categories, with a random suffix of `3` characters, using `_` as a separator, and converting name style to title, use
 
 ```bash
 namer generate 10 --category physics --category biology --suffix_length 3 -- \
-separator _ --style capitalize
+separator _ --style title
 ```
 
 Output:

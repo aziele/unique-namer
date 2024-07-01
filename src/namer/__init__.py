@@ -6,11 +6,10 @@ from typing import Dict, NamedTuple, Union, List
 
 from . import data
 
-__version__ = '0.9.0'
+__version__ = '1.0.0'
 
 
 SUFFIX_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyz'
-
 
 def _generate(
         category: Union[str, List[str]] = '',
@@ -28,7 +27,7 @@ def _generate(
             The length of the optional random suffix.
         style (str):
             The style to apply to the generated name ('lowercase', 'uppercase', 
-            'capitalize').
+            'title').
 
     Returns:
         List[str]: A list containing the adjective, noun, and optional suffix.
@@ -64,7 +63,7 @@ def _generate(
     # Apply style transformation if specified
     if style == 'uppercase':
         name_parts = [part.upper() for part in name_parts]
-    elif style == 'capitalize':
+    elif style == 'title':
         name_parts = [part.capitalize() for part in name_parts]
 
     return name_parts
