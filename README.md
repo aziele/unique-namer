@@ -6,7 +6,7 @@ A Python package and command-line utility to generate unique, human-readable, an
 
 ### Features
 
-* Over 14 million unique names
+* Over 16 million unique names
 * Nearly infinite unique identifiers
 * Ideal for naming temporary directories, user session IDs, gamer tags, project names, process names, submitted jobs, and more.
 
@@ -49,25 +49,25 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td></td>
             <td>__all__</td>
-            <td>6030</td>
+            <td>7043</td>
             <td><code>awful-deadline</code></td>
-            <td>14,315,220</td>
+            <td>16,720,082</td>
             <td>10<sup>13</sup></td>
         </tr>
         <tr>
             <td>:chipmunk:</td>
             <td>animals</td>
-            <td>451</td>
+            <td>461</td>
             <td><code>tan-octopus</code></td>
-            <td>1,070,674</td>
+            <td>1,094,414</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
             <td>:department_store:</td>
             <td>architecture</td>
-            <td>130</td>
+            <td>134</td>
             <td><code>blowing-facade</code></td>
-            <td>308,620</td>
+            <td>318,116</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -81,18 +81,18 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td>:four_leaf_clover:</td>
             <td>biology</td>
-            <td>587</td>
+            <td>604</td>
             <td><code>shiny-centriole</code></td>
-            <td>1,393,538</td>
+            <td>1,433,896</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
             <td>:test_tube:</td>
             <td>chemistry</td>
-            <td>137</td>
+            <td>255</td>
             <td><code>junior-peroxide</code></td>
-            <td>325,238</td>
-            <td>10<sup>11</sup></td>
+            <td>605,370</td>
+            <td>10<sup>12</sup></td>
         </tr>
         <tr>
             <td>:us:</td>
@@ -105,49 +105,49 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td>:computer:</td>
             <td>computer_science</td>
-            <td>277</td>
+            <td>280</td>
             <td><code>funny-malware</code></td>
-            <td>657,598</td>
+            <td>664,720</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
             <td>:hamburger:</td>
             <td>food</td>
-            <td>171</td>
+            <td>217</td>
             <td><code>pretty-waffle</code></td>
-            <td>405,954</td>
+            <td>515,158</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:earth_americas:</td>
             <td>geography</td>
-            <td>182</td>
+            <td>186</td>
             <td><code>enjoyed-tsunami</code></td>
-            <td>432,068</td>
+            <td>441,564</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:european_castle:</td>
             <td>history</td>
-            <td>151</td>
+            <td>162</td>
             <td><code>cool-epoch</code></td>
-            <td>358,474</td>
+            <td>384,588</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:triangular_ruler:</td>
             <td>math</td>
-            <td>148</td>
+            <td>158</td>
             <td><code>peachy-prime</code></td>
-            <td>351,352</td>
+            <td>375,092</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:hospital:</td>
             <td>medicine</td>
-            <td>683</td>
+            <td>706</td>
             <td><code>curly-diarrhea</code></td>
-            <td>1,621,442</td>
+            <td>1,676,044</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -161,49 +161,49 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td>:gun:</td>
             <td>misc</td>
-            <td>2106</td>
+            <td>2823</td>
             <td><code>curvy-flight</code></td>
-            <td>4,999,644</td>
-            <td>10<sup>12</sup></td>
+            <td>6,701,802</td>
+            <td>10<sup>13</sup></td>
         </tr>
         <tr>
             <td>:microscope:</td>
             <td>molecular_biology</td>
-            <td>117</td>
+            <td>118</td>
             <td><code>retired-oligonucleotide</code></td>
-            <td>277,758</td>
+            <td>280,132</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:musical_note:</td>
             <td>music</td>
-            <td>184</td>
+            <td>202</td>
             <td><code>solid-contrabassoon</code></td>
-            <td>436,816</td>
+            <td>479,548</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:atom:</td>
             <td>physics</td>
-            <td>137</td>
+            <td>145</td>
             <td><code>terrible-pressure</code></td>
-            <td>325,238</td>
+            <td>344,230</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:sunflower:</td>
             <td>plants</td>
-            <td>163</td>
+            <td>178</td>
             <td><code>anonymous-cactus</code></td>
-            <td>386,962</td>
+            <td>422,572</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:books:</td>
             <td>science</td>
-            <td>618</td>
+            <td>745</td>
             <td><code>golden-hertz</code></td>
-            <td>1,467,132</td>
+            <td>1,768,630</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -217,9 +217,9 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td>:basketball:</td>
             <td>sports</td>
-            <td>182</td>
+            <td>191</td>
             <td><code>intergalactic-olympics</code></td>
-            <td>432,068</td>
+            <td>453,434</td>
             <td>10<sup>11</sup></td>
         </tr>
     </tbody>
@@ -415,29 +415,29 @@ namer stats
 Output:
 
 ```
-Category           Nouns  Example                Name_combs  ID_combs (4-char suffix)
-__all__             6030  inventive_avogadro     14,315,220  2e+13
-animals              451  eager_manatee           1,070,674  2e+12
-architecture         130  abounding_gazebo          308,620  5e+11
-astronomy            124  pale_apogee               294,376  5e+11
-biology              587  white_protostome        1,393,538  2e+12
-chemistry            137  registered_anion          325,238  5e+11
-countries            182  particular_ecuador        432,068  7e+11
-computer_science     277  polite_imap               657,598  1e+12
-food                 171  sloppy_eggs               405,954  7e+11
-geography            182  glossy_canal              432,068  7e+11
-history              151  agile_chronicle           358,474  6e+11
-math                 148  upset_cylinder            351,352  6e+11
-medicine             683  xenophobic_arm          1,621,442  3e+12
-microbiology         103  continuing_anabiosis      244,522  4e+11
-misc                2106  eager_prompt            4,999,644  8e+12
-molecular_biology    117  snugly_telomere           277,758  5e+11
-music                184  xenogeneic_rodstewart     436,816  7e+11
-physics              137  hulking_shift             325,238  5e+11
-plants               163  minimum_carnation         386,962  6e+11
-science              618  various_oncovirus       1,467,132  2e+12
-scientists           101  affectionate_lamarck      239,774  4e+11
-sports               182  constant_paddle           432,068  7e+11
+Category           Nouns  Example                 Name_combs  ID_combs (4-char suffix)
+__all__             7043  fertile-mazurka         16,720,082  3e+13
+animals              461  understood-anglerfish    1,094,414  2e+12
+architecture         134  zenzeroth-burjalarab       318,116  5e+11
+astronomy            124  lavish-magnetosphere       294,376  5e+11
+biology              604  makeshift-endonuclease   1,433,896  2e+12
+chemistry            255  rancid-sodium              605,370  1e+12
+countries            182  brown-elsalvador           432,068  7e+11
+computer_science     280  abandoned-token            664,720  1e+12
+food                 217  uninterested-parmesan      515,158  9e+11
+geography            186  espressivo-taiga           441,564  7e+11
+history              162  tiresome-valhalla          384,588  6e+11
+math                 158  brutal-geometry            375,092  6e+11
+medicine             706  vocal-gastroenterology   1,676,044  3e+12
+microbiology         103  formidable-koch            244,522  4e+11
+misc                2823  male-possibility         6,701,802  1e+13
+molecular_biology    118  jumbled-centriole          280,132  5e+11
+music                202  visiting-mp3               479,548  8e+11
+physics              145  developing-meter           344,230  6e+11
+plants               178  fermented-grain            422,572  7e+11
+science              745  patient-receptor         1,768,630  3e+12
+scientists           101  electoral-ramanujan        239,774  4e+11
+sports               191  neighbouring-tag           453,434  8e+11
 ```
 
 ## 6.2. Generating names

@@ -28,6 +28,7 @@ MOLECULAR_BIOLOGY = [
     'dna',
     'dynein',
     'electroporation',
+    'elongation',
     'endocytosis',
     'endonuclease',
     'enhancer',

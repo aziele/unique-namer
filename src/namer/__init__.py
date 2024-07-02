@@ -6,7 +6,7 @@ from typing import Dict, NamedTuple, Union, List
 
 from . import data
 
-__version__ = '1.1.1'
+__version__ = '1.1.2'
 
 
 SUFFIX_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyz'

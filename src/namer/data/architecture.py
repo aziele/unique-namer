@@ -1,7 +1,9 @@
 ARCHITECTURE = [
     'abacus',
     'accolade',
+    'antechamber',
     'apron',
+    'apse',
     'arcade',
     'arch',
     'architect',
@@ -111,6 +113,8 @@ ARCHITECTURE = [
     'soffit',
     'spandrel',
     'spire',
+    'stair',
+    'staircase',
     'stoop',
     'structure',
     'symmetries',

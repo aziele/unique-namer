@@ -6,6 +6,7 @@ GEOGRAPHY = [
     'anemometer',
     'antarctic',
     'anticyclone',
+    'aquifer',
     'archipelago',
     'atlas',
     'atmosphere',
@@ -69,6 +70,7 @@ GEOGRAPHY = [
     'geyser',
     'glaciation',
     'glacier',
+    'glen',
     'globalization',
     'globe',
     'gps',
@@ -180,6 +182,8 @@ GEOGRAPHY = [
     'weather',
     'west',
     'wetland',
+    'whirlpool',
+    'whirlwind',
     'world',
 
 ]
