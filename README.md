@@ -1,8 +1,10 @@
 # unique-namer
 
-![PyPI - Version](https://img.shields.io/pypi/v/unique-namer?&color=blue)
+![PyPI - Version](https://img.shields.io/pypi/v/unique-namer?label=version&color=blue)
 
-A Python package and command-line utility to generate unique, human-readable, and memorable names (e.g., `talented-toucan`, `naughty-watermelon`) and identifiers (e.g., `broken-radio-7ab4g`) across various categories such as science, animals, biology, etc.
+![cover](images/cover.png)
+
+A Python package and command-line utility to generate unique and memorable (e.g., `talented-toucan`, `naughty-watermelon`) and identifiers (e.g., `broken-radio-7ab4g`). These names/IDs span various categories like science, animals, and history, and often have a humorous twist.
 
 ### Features
 
