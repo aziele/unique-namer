@@ -1,6 +1,7 @@
 PHYSICS = [
     'aberration',
     'acceleration',
+    'accelerator',
     'acre',
     'advection',
     'airwatt',
@@ -11,6 +12,7 @@ PHYSICS = [
     'atom',
     'bar',
     'baryon',
+    'beam',
     'bhabha',
     'bifocal',
     'body',

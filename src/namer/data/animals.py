@@ -192,6 +192,7 @@ ANIMALS = [
     'herring',
     'himalayan',
     'hippopotamus',
+    'hog',
     'hognose',
     'hookworm',
     'hornet',

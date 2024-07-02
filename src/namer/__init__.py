@@ -6,7 +6,7 @@ from typing import Dict, NamedTuple, Union, List
 
 from . import data
 
-__version__ = '1.1.0'
+__version__ = '1.1.1'
 
 
 SUFFIX_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyz'
@@ -14,6 +14,7 @@ SUFFIX_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyz'
 def _generate(
         category: Union[str, List[str]] = '',
         suffix_length: int = 0,
+        separator: str = '-',
         style: str = 'lowercase'
 ) -> List[str]:
     """
@@ -25,6 +26,8 @@ def _generate(
             The category or list of categories to choose the noun from.
         suffix_length (int): 
             The length of the optional random suffix.
+        separator (str): 
+            The separator between the adjective, noun, and suffix.  
         style (str):
             The style to apply to the generated name ('lowercase', 'uppercase', 
             'title').
@@ -66,21 +69,17 @@ def _generate(
     elif style == 'title':
         name_parts = [part.capitalize() for part in name_parts]
 
-    return name_parts
+    return name_parts, separator
 
 
-def generate(*args, separator='_', **kwargs) -> str:
+def generate(*args, **kwargs) -> str:
     """
     Wrapper for the `_generate` function to return the string name.
-
-    Args:
-        separator (str): 
-            The separator between the adjective, noun, and suffix.
 
     Returns:
         str: The generated name.
     """
-    name_parts = _generate(*args, **kwargs)
+    name_parts, separator = _generate(*args, **kwargs)
     return separator.join(name_parts)
 
 

@@ -2,6 +2,7 @@ PLANTS = [
     'acacia',
     'acorn',
     'agave',
+    'alder',
     'alfalfa',
     'aloevera',
     'apple',

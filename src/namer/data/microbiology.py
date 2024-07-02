@@ -86,6 +86,7 @@ MICROBIOLOGY = [
     'sarscov2',
     'serology',
     'spike',
+    'stain',
     'stanley',
     'staphylococcus',
     'strains',

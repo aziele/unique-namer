@@ -1,6 +1,7 @@
 MUSIC = [
     'acappella',
     'accelerando',
+    'acoustics',
     'adagio',
     'allegro',
     'alto',
@@ -149,6 +150,7 @@ MUSIC = [
     'schumann',
     'serenade',
     'shakuhachi',
+    'singers',
     'snare',
     'sonata',
     'song',

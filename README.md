@@ -6,9 +6,9 @@ A Python package and command-line utility to generate unique, human-readable, an
 
 ### Features
 
-* Nearly 10 million unique names
+* Over 14 million unique names
 * Nearly infinite unique identifiers
-* Ideal for naming temporary directories, user session IDs, gamer tags, project names, and more.
+* Ideal for naming temporary directories, user session IDs, gamer tags, project names, process names, submitted jobs, and more.
 
 ## Table of contents
 
@@ -49,17 +49,17 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td></td>
             <td>__all__</td>
-            <td>4188</td>
+            <td>6030</td>
             <td><code>awful-deadline</code></td>
-            <td>9,929,748</td>
+            <td>14,315,220</td>
             <td>10<sup>13</sup></td>
         </tr>
         <tr>
             <td>:chipmunk:</td>
             <td>animals</td>
-            <td>450</td>
+            <td>451</td>
             <td><code>tan-octopus</code></td>
-            <td>1,066,950</td>
+            <td>1,070,674</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -67,7 +67,7 @@ Categories enable customization of generated names to align with the specific to
             <td>architecture</td>
             <td>130</td>
             <td><code>blowing-facade</code></td>
-            <td>308,230</td>
+            <td>308,620</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -75,23 +75,23 @@ Categories enable customization of generated names to align with the specific to
             <td>astronomy</td>
             <td>124</td>
             <td><code>ruthless-meteoroid</code></td>
-            <td>294,004</td>
+            <td>294,376</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:four_leaf_clover:</td>
             <td>biology</td>
-            <td>585</td>
+            <td>587</td>
             <td><code>shiny-centriole</code></td>
-            <td>1,387,035</td>
+            <td>1,393,538</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
             <td>:test_tube:</td>
             <td>chemistry</td>
-            <td>127</td>
+            <td>137</td>
             <td><code>junior-peroxide</code></td>
-            <td>301,117</td>
+            <td>325,238</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -99,7 +99,7 @@ Categories enable customization of generated names to align with the specific to
             <td>countries</td>
             <td>182</td>
             <td><code>satisfying-tanzania</code></td>
-            <td>431,522</td>
+            <td>432,068</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -107,15 +107,15 @@ Categories enable customization of generated names to align with the specific to
             <td>computer_science</td>
             <td>277</td>
             <td><code>funny-malware</code></td>
-            <td>656,767</td>
+            <td>657,598</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
             <td>:hamburger:</td>
             <td>food</td>
-            <td>167</td>
+            <td>171</td>
             <td><code>pretty-waffle</code></td>
-            <td>395,957</td>
+            <td>405,954</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -123,47 +123,47 @@ Categories enable customization of generated names to align with the specific to
             <td>geography</td>
             <td>182</td>
             <td><code>enjoyed-tsunami</code></td>
-            <td>431,522</td>
+            <td>432,068</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:european_castle:</td>
             <td>history</td>
-            <td>149</td>
+            <td>151</td>
             <td><code>cool-epoch</code></td>
-            <td>353,279</td>
+            <td>358,474</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:triangular_ruler:</td>
             <td>math</td>
-            <td>146</td>
+            <td>148</td>
             <td><code>peachy-prime</code></td>
-            <td>346,166</td>
+            <td>351,352</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:hospital:</td>
             <td>medicine</td>
-            <td>679</td>
+            <td>683</td>
             <td><code>curly-diarrhea</code></td>
-            <td>1,609,909</td>
+            <td>1,621,442</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
             <td>:bug:</td>
             <td>microbiology</td>
-            <td>102</td>
+            <td>103</td>
             <td><code>crazy-bacteria</code></td>
-            <td>241,842</td>
+            <td>244,522</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:gun:</td>
             <td>misc</td>
-            <td>353</td>
+            <td>2106</td>
             <td><code>curvy-flight</code></td>
-            <td>836,963</td>
+            <td>4,999,644</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -171,39 +171,39 @@ Categories enable customization of generated names to align with the specific to
             <td>molecular_biology</td>
             <td>117</td>
             <td><code>retired-oligonucleotide</code></td>
-            <td>277,407</td>
+            <td>277,758</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:musical_note:</td>
             <td>music</td>
-            <td>182</td>
+            <td>184</td>
             <td><code>solid-contrabassoon</code></td>
-            <td>431,522</td>
+            <td>436,816</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:atom:</td>
             <td>physics</td>
-            <td>135</td>
+            <td>137</td>
             <td><code>terrible-pressure</code></td>
-            <td>320,085</td>
+            <td>325,238</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:sunflower:</td>
             <td>plants</td>
-            <td>162</td>
+            <td>163</td>
             <td><code>anonymous-cactus</code></td>
-            <td>384,102</td>
+            <td>386,962</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:books:</td>
             <td>science</td>
-            <td>605</td>
+            <td>618</td>
             <td><code>golden-hertz</code></td>
-            <td>1,434,455</td>
+            <td>1,467,132</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -211,15 +211,15 @@ Categories enable customization of generated names to align with the specific to
             <td>scientists</td>
             <td>101</td>
             <td><code>gifted-newton</code></td>
-            <td>239,471</td>
+            <td>239,774</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:basketball:</td>
             <td>sports</td>
-            <td>123</td>
+            <td>182</td>
             <td><code>intergalactic-olympics</code></td>
-            <td>291,633</td>
+            <td>432,068</td>
             <td>10<sup>11</sup></td>
         </tr>
     </tbody>
@@ -334,18 +334,20 @@ print(name)   # Example: 'Lazy Unicorn'
 
 ### 5.2. Customizing names
 
-To customize generated names for specific project requirements (e.g., adding date or project name), use the `_generate` function. This function returns a Python list of name components, which you can modify and format into a string name.
+To tailor the generated names to your specific project needs, such as adding a date or project name, use the `_generate` function. This function returns a Python list of name components and a separator. You can modify the list and then format it into a string.
+
+Here's an example:
 
 ```python
 import namer
 
 # Generate name components
-name_components = _generate(category='food', suffix_length=3)
+name_components, separator = _generate(category='food', suffix_length=3)
 print(name_components)   # Example: ['macho', 'pizza', '7dx']
 
 # Create custom generate function
-def my_generate(*args, separator='_', **kwargs):
-    name_components = namer_generate(*args, **kwargs)
+def my_generate(*args, **kwargs):
+    name_components, separator = namer_generate(*args, **kwargs)
     name_components.insert(0, '2024')
     return separator.join(name_components)
 
@@ -412,30 +414,30 @@ namer stats
 
 Output:
 
-```bash
-Category           Nouns  Example                 Name_combs  ID_combs (4-char suffix)
-__all__             4188  arid_decomposition       9,929,748  2e+13
-animals              450  spotty_swallow           1,066,950  2e+12
-architecture         130  southern_triglyph          308,230  5e+11
-astronomy            124  frayed_sirius              294,004  5e+11
-biology              585  swarm_stanley            1,387,035  2e+12
-chemistry            127  minimal_autoionization     301,117  5e+11
-countries            182  agreed_afghanistan         431,522  7e+11
-computer_science     277  abrasive_language          656,767  1e+12
-food                 167  complete_ice               395,957  7e+11
-geography            182  agricultural_world         431,522  7e+11
-history              149  sunset_expedition          353,279  6e+11
-math                 146  wilful_mapping             346,166  6e+11
-medicine             679  protective_foreskin      1,609,909  3e+12
-microbiology         102  fast_transmission          241,842  4e+11
-misc                 353  earthy_canteen             836,963  1e+12
-molecular_biology    117  acyclic_codon              277,407  5e+11
-music                182  genteel_adagio             431,522  7e+11
-physics              135  outrageous_conductor       320,085  5e+11
-plants               162  dapper_peony               384,102  6e+11
-science              605  full_koch                1,434,455  2e+12
-scientists           101  urgent_planck              239,471  4e+11
-sports               123  satisfactory_swim          291,633  5e+11
+```
+Category           Nouns  Example                Name_combs  ID_combs (4-char suffix)
+__all__             6030  inventive_avogadro     14,315,220  2e+13
+animals              451  eager_manatee           1,070,674  2e+12
+architecture         130  abounding_gazebo          308,620  5e+11
+astronomy            124  pale_apogee               294,376  5e+11
+biology              587  white_protostome        1,393,538  2e+12
+chemistry            137  registered_anion          325,238  5e+11
+countries            182  particular_ecuador        432,068  7e+11
+computer_science     277  polite_imap               657,598  1e+12
+food                 171  sloppy_eggs               405,954  7e+11
+geography            182  glossy_canal              432,068  7e+11
+history              151  agile_chronicle           358,474  6e+11
+math                 148  upset_cylinder            351,352  6e+11
+medicine             683  xenophobic_arm          1,621,442  3e+12
+microbiology         103  continuing_anabiosis      244,522  4e+11
+misc                2106  eager_prompt            4,999,644  8e+12
+molecular_biology    117  snugly_telomere           277,758  5e+11
+music                184  xenogeneic_rodstewart     436,816  7e+11
+physics              137  hulking_shift             325,238  5e+11
+plants               163  minimum_carnation         386,962  6e+11
+science              618  various_oncovirus       1,467,132  2e+12
+scientists           101  affectionate_lamarck      239,774  4e+11
+sports               182  constant_paddle           432,068  7e+11
 ```
 
 ## 6.2. Generating names
@@ -450,7 +452,7 @@ namer generate 5
 
 Output:
 
-```bash
+```
 basic-mortise
 focused-berry
 uncommon-broth
@@ -469,7 +471,7 @@ separator _ --style title
 
 Output:
 
-```bash
+```
 Visiting_Haploid_Eep
 Eventual_Refraction_Cnr
 Snugly_Monod_Sim
