@@ -87,7 +87,7 @@ CHEMISTRY = [
     'electrolyte',
     'electrons',
     'electrophile',
-    'electrophoresis',
+    'electrophoreses',
     'element',
     'emulsion',
     'enthalpy',

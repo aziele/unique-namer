@@ -8,7 +8,7 @@ A Python package and command-line utility to generate unique and memorable (e.g.
 
 ### Features
 
-* Over 16 million unique names
+* Over 17 million unique names
 * Nearly infinite unique identifiers
 * Ideal for naming temporary directories, user session IDs, gamer tags, project names, process names, submitted jobs, and more.
 
@@ -51,9 +51,9 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td></td>
             <td>__all__</td>
-            <td>7043</td>
+            <td>7170</td>
             <td><code>awful-deadline</code></td>
-            <td>16,720,082</td>
+            <td>17,021,580</td>
             <td>10<sup>13</sup></td>
         </tr>
         <tr>
@@ -83,9 +83,9 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td>:four_leaf_clover:</td>
             <td>biology</td>
-            <td>604</td>
+            <td>730</td>
             <td><code>shiny-centriole</code></td>
-            <td>1,433,896</td>
+            <td>1,733,020</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -139,9 +139,9 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td>:triangular_ruler:</td>
             <td>math</td>
-            <td>158</td>
+            <td>157</td>
             <td><code>peachy-prime</code></td>
-            <td>375,092</td>
+            <td>372,718</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -155,9 +155,9 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td>:bug:</td>
             <td>microbiology</td>
-            <td>103</td>
+            <td>130</td>
             <td><code>crazy-bacteria</code></td>
-            <td>244,522</td>
+            <td>308,620</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -171,9 +171,9 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td>:microscope:</td>
             <td>molecular_biology</td>
-            <td>118</td>
+            <td>220</td>
             <td><code>retired-oligonucleotide</code></td>
-            <td>280,132</td>
+            <td>522,280</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -203,9 +203,9 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td>:books:</td>
             <td>science</td>
-            <td>745</td>
+            <td>874</td>
             <td><code>golden-hertz</code></td>
-            <td>1,768,630</td>
+            <td>2,074,876</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -417,29 +417,29 @@ namer stats
 Output:
 
 ```
-Category           Nouns  Example                 Name_combs  ID_combs (4-char suffix)
-__all__             7043  fertile-mazurka         16,720,082  3e+13
-animals              461  understood-anglerfish    1,094,414  2e+12
-architecture         134  zenzeroth-burjalarab       318,116  5e+11
-astronomy            124  lavish-magnetosphere       294,376  5e+11
-biology              604  makeshift-endonuclease   1,433,896  2e+12
-chemistry            255  rancid-sodium              605,370  1e+12
-countries            182  brown-elsalvador           432,068  7e+11
-computer_science     280  abandoned-token            664,720  1e+12
-food                 217  uninterested-parmesan      515,158  9e+11
-geography            186  espressivo-taiga           441,564  7e+11
-history              162  tiresome-valhalla          384,588  6e+11
-math                 158  brutal-geometry            375,092  6e+11
-medicine             706  vocal-gastroenterology   1,676,044  3e+12
-microbiology         103  formidable-koch            244,522  4e+11
-misc                2823  male-possibility         6,701,802  1e+13
-molecular_biology    118  jumbled-centriole          280,132  5e+11
-music                202  visiting-mp3               479,548  8e+11
-physics              145  developing-meter           344,230  6e+11
-plants               178  fermented-grain            422,572  7e+11
-science              745  patient-receptor         1,768,630  3e+12
-scientists           101  electoral-ramanujan        239,774  4e+11
-sports               191  neighbouring-tag           453,434  8e+11
+Category           Nouns  Example                Name_combs  ID_combs (4-char suffix)
+__all__             7170  talented-samoa         17,021,580  3e+13
+animals              461  rigid-tamarin           1,094,414  2e+12
+architecture         134  hushed-pier               318,116  5e+11
+astronomy            124  aesthetic-apogee          294,376  5e+11
+biology              730  grilled-liverworts      1,733,020  3e+12
+chemistry            255  engaging-avogadro         605,370  1e+12
+countries            182  affectionate-kuwait       432,068  7e+11
+computer_science     280  devout-cluster            664,720  1e+12
+food                 217  outstanding-ravioli       515,158  9e+11
+geography            186  grubby-quartz             441,564  7e+11
+history              162  profuse-document          384,588  6e+11
+math                 157  decidable-cylinder        372,718  6e+11
+medicine             706  measly-seborrhea        1,676,044  3e+12
+microbiology         130  nosy-coinfection          308,620  5e+11
+misc                2823  fellow-sleigh           6,701,802  1e+13
+molecular_biology    220  odious-purine             522,280  9e+11
+music                202  bursting-bobmarley        479,548  8e+11
+physics              145  matching-resistivity      344,230  6e+11
+plants               178  western-bud               422,572  7e+11
+science              874  arrogant-ribonuclease   2,074,876  3e+12
+scientists           101  materialistic-planck      239,774  4e+11
+sports               191  elaborate-box             453,434  8e+11
 ```
 
 ## 6.2. Generating names
