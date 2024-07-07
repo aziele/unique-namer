@@ -4,7 +4,7 @@
 
 ![cover](images/cover.png)
 
-A Python package and command-line utility to generate unique and memorable (e.g., `talented-toucan`, `naughty-watermelon`) and identifiers (e.g., `broken-radio-7ab4g`). These names/IDs span various categories like science, animals, and history, and often have a humorous twist.
+A Python package and command-line utility to generate unique and memorable names (e.g., `talented-toucan`, `naughty-watermelon`) and identifiers (e.g., `broken-radio-7ab4g`). These names/IDs span various categories like science, animals, and history, and often have a humorous twist.
 
 ### Features
 
