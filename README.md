@@ -4,13 +4,16 @@
 
 ![cover](images/cover.png)
 
-A Python package and command-line utility to generate unique and memorable names (e.g., `talented-toucan`, `naughty-watermelon`) and identifiers (e.g., `broken-radio-7ab4g`). These names/IDs span various categories like science, animals, and history, and often have a humorous twist.
+A Python package and command-line utility to generate unique and memorable names (e.g., `talented-toucan`, `naughty-watermelon`) and IDs (e.g., `broken-radio-7ab4g`). These names/IDs are ideal for naming temporary directories, user session IDs, gamer tags, project names, process names, or submitted jobs.
+
+The generated names cover a wide range of categories, including science, animals, and history, often with a humorous twist. While creating unique-namer, I was inspired by the creative names used by Docker for its containers and NextFlow for its processes.
 
 ### Features
 
 * Over 17 million unique names
 * Nearly infinite unique identifiers
-* Ideal for naming temporary directories, user session IDs, gamer tags, project names, process names, submitted jobs, and more.
+* 20+ vocabulary categories
+* Customizable names and categories
 
 ## Table of contents
 
@@ -27,7 +30,8 @@ A Python package and command-line utility to generate unique and memorable names
       1. [Getting Statistics](#61-getting-statistics)
       2. [Generating Names](#62-generating-names)
 7. [Versioning](#7-versioning)
-8. [License](#8-license)
+8. [Tests](#8-tests)
+9. [License](#9-license)
 
 ## 1. Categories
 
@@ -488,12 +492,20 @@ Formidable_Field_621
 
 ## 7. Versioning
 
-The package adheres to Semantic Versioning with the format `MAJOR.MINOR.PATCH`:
+The package follows Semantic Versioning with the format `MAJOR.MINOR.PATCH`:
 
-* **MAJOR version** is incremented for significant codebase changes, such as new features or major reorganizations.
-* **MINOR version** is incremented for category-related updates, like adding or modifying categories.
-* **PATCH version** is incremented for bug fixes, improvements, or vocabulary expansions without category changes.
+* **MAJOR version**: significant changes (e.g., new features, major code reorganizations).
+* **MINOR version**: category-related updates (e.g., adding/moving categories).
+* **PATCH version**: bug fixes or vocabulary expansions without changing the list of categories.
 
-## 8. License
+## 8. Tests
+
+To ensure that unique-namer works as expected, you can run tests using pytest.
+
+```
+pytest tests
+```
+
+## 9. License
 
 [MIT License](https://choosealicense.com/licenses/mit/)
