@@ -6,13 +6,13 @@
 
 A Python package and command-line utility to generate unique and memorable names (e.g., `talented-toucan`, `naughty-watermelon`) and IDs (e.g., `broken-radio-7ab4g`). These names/IDs are ideal for naming temporary directories, user session IDs, gamer tags, project names, process names, or submitted jobs.
 
-The generated names cover a wide range of categories, including science, animals, and history, often with a humorous twist. While creating unique-namer, I was inspired by the creative names used by Docker for its containers and NextFlow for its processes.
+The generated names cover a wide range of thematic categories, including science, animals, or history, often with a humorous twist. While creating unique-namer, I was inspired by the creative names used by Docker for its containers and NextFlow for its processes.
 
 ### Features
 
 * Over 17 million unique names
 * Nearly infinite unique identifiers
-* 20+ vocabulary categories
+* 20+ categories
 * Customizable names and categories
 
 ## Table of contents
