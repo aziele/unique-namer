@@ -10,7 +10,7 @@ The generated names cover a wide range of thematic categories, including science
 
 ### Features
 
-* Over 17 million unique names
+* Over 18 million unique names
 * Nearly infinite unique identifiers
 * 20+ categories
 * Customizable names and categories
@@ -55,9 +55,9 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td></td>
             <td>__all__</td>
-            <td>7170</td>
+            <td>7700</td>
             <td><code>awful-deadline</code></td>
-            <td>17,021,580</td>
+            <td>18,279,800</td>
             <td>10<sup>13</sup></td>
         </tr>
         <tr>
@@ -127,18 +127,26 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td>:earth_americas:</td>
             <td>geography</td>
-            <td>186</td>
+            <td>185</td>
             <td><code>enjoyed-tsunami</code></td>
-            <td>441,564</td>
+            <td>439,190</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:european_castle:</td>
             <td>history</td>
-            <td>162</td>
+            <td>156</td>
             <td><code>cool-epoch</code></td>
-            <td>384,588</td>
+            <td>370,344</td>
             <td>10<sup>11</sup></td>
+        </tr>
+        <tr>
+            <td>:books:</td>
+            <td>literature</td>
+            <td>587</td>
+            <td><code>winning-limerick</code></td>
+            <td>1,393,538</td>
+            <td>10<sup>12</sup></td>
         </tr>
         <tr>
             <td>:triangular_ruler:</td>
@@ -183,9 +191,9 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td>:musical_note:</td>
             <td>music</td>
-            <td>202</td>
+            <td>203</td>
             <td><code>solid-contrabassoon</code></td>
-            <td>479,548</td>
+            <td>481,922</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -205,7 +213,7 @@ Categories enable customization of generated names to align with the specific to
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
-            <td>:books:</td>
+            <td>:electron:</td>
             <td>science</td>
             <td>874</td>
             <td><code>golden-hertz</code></td>
@@ -371,9 +379,9 @@ import namer
 print(namer.list_categories())
 # ['animals', 'architecture', 'astronomy', 'biology', 
 # 'chemistry', 'computer_science', 'countries', 'food',
-# 'geography', 'history', 'math', 'medicine, 'misc', 
-# 'microbiology', 'molecular_biology', 'music', 'physcics', 
-# 'plants', 'science', 'scientists', 'sports']
+# 'geography', 'history', 'literature', 'math', 'medicine, 
+# 'misc', 'microbiology', 'molecular_biology', 'music',
+# 'physcics', 'plants', 'science', 'scientists', 'sports']
 ```
 
 ### 5.4. Adding custom categories
@@ -421,29 +429,30 @@ namer stats
 Output:
 
 ```
-Category           Nouns  Example                Name_combs  ID_combs (4-char suffix)
-__all__             7170  talented-samoa         17,021,580  3e+13
-animals              461  rigid-tamarin           1,094,414  2e+12
-architecture         134  hushed-pier               318,116  5e+11
-astronomy            124  aesthetic-apogee          294,376  5e+11
-biology              730  grilled-liverworts      1,733,020  3e+12
-chemistry            255  engaging-avogadro         605,370  1e+12
-countries            182  affectionate-kuwait       432,068  7e+11
-computer_science     280  devout-cluster            664,720  1e+12
-food                 217  outstanding-ravioli       515,158  9e+11
-geography            186  grubby-quartz             441,564  7e+11
-history              162  profuse-document          384,588  6e+11
-math                 157  decidable-cylinder        372,718  6e+11
-medicine             706  measly-seborrhea        1,676,044  3e+12
-microbiology         130  nosy-coinfection          308,620  5e+11
-misc                2823  fellow-sleigh           6,701,802  1e+13
-molecular_biology    220  odious-purine             522,280  9e+11
-music                202  bursting-bobmarley        479,548  8e+11
-physics              145  matching-resistivity      344,230  6e+11
-plants               178  western-bud               422,572  7e+11
-science              874  arrogant-ribonuclease   2,074,876  3e+12
-scientists           101  materialistic-planck      239,774  4e+11
-sports               191  elaborate-box             453,434  8e+11
+Category           Nouns  Example                 Name_combs  ID_combs (4-char suffix)
+__all__             7700  diligent-hookworm       18,279,800  3e+13
+animals              461  handy-squirrel           1,094,414  2e+12
+architecture         134  vacuous-cupola             318,116  5e+11
+astronomy            124  abandoned-saturn           294,376  5e+11
+biology              730  angry-mutagenesis        1,733,020  3e+12
+chemistry            255  colorful-condensation      605,370  1e+12
+countries            182  festering-jamaica          432,068  7e+11
+computer_science     280  neighborly-uptime          664,720  1e+12
+food                 217  uncommon-fontina           515,158  9e+11
+geography            185  frosty-meridian            439,190  7e+11
+history              156  wasteful-cleopatra         370,344  6e+11
+literature           587  literate-masterpiece     1,393,538  2e+12
+math                 157  evolved-slide              372,718  6e+11
+medicine             706  golden-aldosteronism     1,676,044  3e+12
+microbiology         130  maddening-transmission     308,620  5e+11
+misc                2823  ceaseless-judgment       6,701,802  1e+13
+molecular_biology    220  competent-threonine        522,280  9e+11
+music                203  useless-snare              481,922  8e+11
+physics              145  experienced-solenoid       344,230  6e+11
+plants               178  reliable-lime              422,572  7e+11
+science              874  perpetual-gene           2,074,876  3e+12
+scientists           101  obnoxious-wilson           239,774  4e+11
+sports               191  gruesome-kickboxing        453,434  8e+11
 ```
 
 ## 6.2. Generating names

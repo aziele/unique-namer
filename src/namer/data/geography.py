@@ -99,7 +99,6 @@ GEOGRAPHY = [
     'landform',
     'latitude',
     'lava',
-    'legend',
     'limestone',
     'location',
     'longitude',

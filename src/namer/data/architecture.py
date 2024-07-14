@@ -41,7 +41,7 @@ ARCHITECTURE = [
     'crypt',
     'cryptoporticus',
     'cupola',
-    'deconstruction',
+    'deconstructions',
     'dentil',
     'dentils',
     'design',

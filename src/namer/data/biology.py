@@ -1,7 +1,7 @@
 BIOLOGY = [
     'abiogenesis',
     'absorption',
-    'adaptation',
+    'adaptations',
     'adhesion',
     'adrenalin',
     'agonist',

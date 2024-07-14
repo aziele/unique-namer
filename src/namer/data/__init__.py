@@ -9,6 +9,7 @@ from .countries import COUNTRIES
 from .food import FOOD
 from .geography import GEOGRAPHY
 from .history import HISTORY
+from .literature import LITERATURE
 from .math import MATH
 from .medicine import MEDICINE
 from .microbiology import MICROBIOLOGY
@@ -35,6 +36,7 @@ categories = {
     'food': [FOOD],
     'geography': [GEOGRAPHY],
     'history': [HISTORY],
+    'literature': [LITERATURE],
     'math': [MATH],
     'medicine': [MEDICINE],
     'microbiology': [MICROBIOLOGY],
