@@ -129,5 +129,4 @@ MICROBIOLOGY = [
     'viruses',
     'zikavirus',
     'zoonosis',
-
 ]

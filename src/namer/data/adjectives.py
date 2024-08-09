@@ -2373,5 +2373,4 @@ ADJECTIVES = [
     'zoophagous',
     'zygomorphic',
     'zygotic',
-
 ]

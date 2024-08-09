@@ -7,6 +7,7 @@ PHYSICS = [
     'airwatt',
     'albedo',
     'ampere',
+    'amplifier',
     'amplitude',
     'aperture',
     'atom',
@@ -121,6 +122,7 @@ PHYSICS = [
     'scalar',
     'scattering',
     'second',
+    'semiconductors',
     'shift',
     'solenoid',
     'spectrum',
@@ -144,5 +146,4 @@ PHYSICS = [
     'weight',
     'work',
     'yard',
-
 ]

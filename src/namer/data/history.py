@@ -155,5 +155,4 @@ HISTORY = [
     'war',
     'warfare',
     'washington',
-
 ]

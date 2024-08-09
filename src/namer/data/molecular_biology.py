@@ -219,5 +219,4 @@ MOLECULAR_BIOLOGY = [
     'watson',
     'westernblot',
     'zincfinger',
-
 ]

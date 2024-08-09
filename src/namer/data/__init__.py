@@ -8,6 +8,7 @@ from .computer_science import COMPUTER_SCIENCE
 from .countries import COUNTRIES
 from .food import FOOD
 from .geography import GEOGRAPHY
+from .general import GENERAL
 from .history import HISTORY
 from .literature import LITERATURE
 from .math import MATH
@@ -19,7 +20,6 @@ from .physics import PHYSICS
 from .plants import PLANTS
 from .scientists import SCIENTISTS
 from .sports import SPORTS
-from .misc import MISC
 
 categories = {
     'animals': [ANIMALS],
@@ -35,12 +35,12 @@ categories = {
     'computer_science': [COMPUTER_SCIENCE],
     'food': [FOOD],
     'geography': [GEOGRAPHY],
+    'general': [GENERAL],
     'history': [HISTORY],
     'literature': [LITERATURE],
     'math': [MATH],
     'medicine': [MEDICINE],
     'microbiology': [MICROBIOLOGY],
-    'misc': [MISC],
     'molecular_biology': [MOLECULAR_BIOLOGY],
     'music': [MUSIC],
     'physics': [PHYSICS],

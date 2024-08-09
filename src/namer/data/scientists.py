@@ -100,5 +100,4 @@ SCIENTISTS = [
     'wozniak',
     'yamanaka',
     'youyou',
-
 ]

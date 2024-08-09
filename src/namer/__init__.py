@@ -6,13 +6,13 @@ from typing import Dict, NamedTuple, Union, List
 
 from . import data
 
-__version__ = '1.2.0'
+__version__ = '1.3.0'
 
 
 SUFFIX_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyz'
 
 def _generate(
-        category: Union[str, List[str]] = '',
+        category: Union[str, List[str]] = 'general',
         suffix_length: int = 0,
         separator: str = '-',
         style: str = 'lowercase'
@@ -41,7 +41,9 @@ def _generate(
     adjective = random.choice(data.ADJECTIVES)
     
     # Determine the category name
-    if not category or category == '__all__':
+    if not category:
+        category_name = 'general'
+    elif category == '__all__':
         category_name = random.choice(list(data.categories.keys()))
     elif isinstance(category, list):
         category_name = random.choice(category)

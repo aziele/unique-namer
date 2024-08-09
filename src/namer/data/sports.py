@@ -190,5 +190,4 @@ SPORTS = [
     'winning',
     'wrestler',
     'wrestling',
-
 ]

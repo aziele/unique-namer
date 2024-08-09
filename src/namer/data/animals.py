@@ -460,5 +460,4 @@ ANIMALS = [
     'yak',
     'zebra',
     'zebrafish',
-
 ]

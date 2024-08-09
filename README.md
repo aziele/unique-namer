@@ -35,7 +35,7 @@ The generated names cover a wide range of thematic categories, including science
 
 ## 1. Categories
 
-Categories enable customization of generated names to align with the specific topic or theme of the project.
+Categories allow you to customize generated names to fit the specific topic or theme of your project. The default category, `general`, includes widely recognized nouns and excludes more specialized or uncommon terms.
 
 <table>
     <thead>
@@ -55,13 +55,13 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td></td>
             <td>__all__</td>
-            <td>7700</td>
+            <td>7842</td>
             <td><code>awful-deadline</code></td>
-            <td>18,279,800</td>
+            <td>18,616,908</td>
             <td>10<sup>13</sup></td>
         </tr>
         <tr>
-            <td>:chipmunk:</td>
+            <td>:frog:</td>
             <td>animals</td>
             <td>461</td>
             <td><code>tan-octopus</code></td>
@@ -111,9 +111,9 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td>:computer:</td>
             <td>computer_science</td>
-            <td>280</td>
+            <td>332</td>
             <td><code>funny-malware</code></td>
-            <td>664,720</td>
+            <td>788,168</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -131,6 +131,14 @@ Categories enable customization of generated names to align with the specific to
             <td><code>enjoyed-tsunami</code></td>
             <td>439,190</td>
             <td>10<sup>11</sup></td>
+        </tr>
+        <tr>
+            <td>:star:</td>
+            <td><b>general</b></td>
+            <td>5476</td>
+            <td><code>curvy-flight</code></td>
+            <td>13,000,024</td>
+            <td>10<sup>13</sup></td>
         </tr>
         <tr>
             <td>:european_castle:</td>
@@ -173,14 +181,6 @@ Categories enable customization of generated names to align with the specific to
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
-            <td>:gun:</td>
-            <td>misc</td>
-            <td>2823</td>
-            <td><code>curvy-flight</code></td>
-            <td>6,701,802</td>
-            <td>10<sup>13</sup></td>
-        </tr>
-        <tr>
             <td>:microscope:</td>
             <td>molecular_biology</td>
             <td>220</td>
@@ -199,9 +199,9 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td>:atom:</td>
             <td>physics</td>
-            <td>145</td>
+            <td>147</td>
             <td><code>terrible-pressure</code></td>
-            <td>344,230</td>
+            <td>348,978</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -215,9 +215,9 @@ Categories enable customization of generated names to align with the specific to
         <tr>
             <td>:electron:</td>
             <td>science</td>
-            <td>874</td>
+            <td>876</td>
             <td><code>golden-hertz</code></td>
-            <td>2,074,876</td>
+            <td>2,079,624</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -296,9 +296,9 @@ name = namer.generate()
 print(name)   # Example: 'blushy-cyclist'
 ```
 
-#### `category` - str or list, default is an empty string
+#### `category` - str or list, default is `general`
 
-By default, `generate` randomly selects one category to pick a noun from. Categories are selected with equal probability, regardless of the number of nouns they contain. You can specify one or more categories to restrict the selection. 
+The `generate` function selects nouns from the `general` category by default. If category is provided as a list of categories, the function randomly chooses one category from the list to generate a noun. Each category is chosen with equal probability, regardless of the number of nouns it contains.
 
 ```python
 import namer
@@ -306,8 +306,18 @@ import namer
 name = namer.generate(category='astronomy')
 print(name)   # Example: 'crazy-supernova'                 
 
-name = namer.generate(category=['physics', 'molecular_biology'])
+name = namer.generate(category=['physics', 'biology'])
 print(name)   # Example: 'pink-bacteria'
+```
+
+To use all available categories, set the `category` argument to `__all__`.
+
+```python
+import namer
+
+name = namer.generate(category='__all__')
+print(name)   # Example: 'lonely-momentum'
+
 ```
 
 #### `suffix_length` - int, default is `0`
@@ -378,10 +388,10 @@ import namer
 
 print(namer.list_categories())
 # ['animals', 'architecture', 'astronomy', 'biology', 
-# 'chemistry', 'computer_science', 'countries', 'food',
-# 'geography', 'history', 'literature', 'math', 'medicine, 
-# 'misc', 'microbiology', 'molecular_biology', 'music',
-# 'physcics', 'plants', 'science', 'scientists', 'sports']
+#  'chemistry', 'computer_science', 'countries', 'food',
+#  'general', 'geography', 'history', 'literature', 'math',
+#  'medicine', 'microbiology', 'molecular_biology', 'music',
+#  'physics', 'plants', 'science', 'scientists', 'sports']
 ```
 
 ### 5.4. Adding custom categories
@@ -429,30 +439,30 @@ namer stats
 Output:
 
 ```
-Category           Nouns  Example                 Name_combs  ID_combs (4-char suffix)
-__all__             7700  diligent-hookworm       18,279,800  3e+13
-animals              461  handy-squirrel           1,094,414  2e+12
-architecture         134  vacuous-cupola             318,116  5e+11
-astronomy            124  abandoned-saturn           294,376  5e+11
-biology              730  angry-mutagenesis        1,733,020  3e+12
-chemistry            255  colorful-condensation      605,370  1e+12
-countries            182  festering-jamaica          432,068  7e+11
-computer_science     280  neighborly-uptime          664,720  1e+12
-food                 217  uncommon-fontina           515,158  9e+11
-geography            185  frosty-meridian            439,190  7e+11
-history              156  wasteful-cleopatra         370,344  6e+11
-literature           587  literate-masterpiece     1,393,538  2e+12
-math                 157  evolved-slide              372,718  6e+11
-medicine             706  golden-aldosteronism     1,676,044  3e+12
-microbiology         130  maddening-transmission     308,620  5e+11
-misc                2823  ceaseless-judgment       6,701,802  1e+13
-molecular_biology    220  competent-threonine        522,280  9e+11
-music                203  useless-snare              481,922  8e+11
-physics              145  experienced-solenoid       344,230  6e+11
-plants               178  reliable-lime              422,572  7e+11
-science              874  perpetual-gene           2,074,876  3e+12
-scientists           101  obnoxious-wilson           239,774  4e+11
-sports               191  gruesome-kickboxing        453,434  8e+11
+Category           Nouns  Example                  Name_combs  ID_combs (4-char suffix)
+__all__             7842  keen-mesopotamia         18,616,908  3e+13
+animals              461  direful-aotus             1,094,414  2e+12
+architecture         134  colorful-frieze             318,116  5e+11
+astronomy            124  external-neptune            294,376  5e+11
+biology              730  embarrassed-endocytosis   1,733,020  3e+12
+chemistry            255  terrific-conformations      605,370  1e+12
+countries            182  relative-vanuatu            432,068  7e+11
+computer_science     332  laminated-microarray        788,168  1e+12
+food                 217  practical-colby             515,158  9e+11
+geography            185  proper-pole                 439,190  7e+11
+general             5476  essential-shampoo        13,000,024  2e+13
+history              156  improved-century            370,344  6e+11
+literature           587  soggy-sublime             1,393,538  2e+12
+math                 157  symmetric-minute            372,718  6e+11
+medicine             706  approximate-astigmatism   1,676,044  3e+12
+microbiology         130  dramatic-bacteroides        308,620  5e+11
+molecular_biology    220  solid-methionine            522,280  9e+11
+music                203  causal-falsetto             481,922  8e+11
+physics              147  liked-projectile            348,978  6e+11
+plants               178  jazzed-tree                 422,572  7e+11
+science              876  ripe-thymine              2,079,624  3e+12
+scientists           101  trusty-coulomb              239,774  4e+11
+sports               191  sudden-major                453,434  8e+11
 ```
 
 ## 6.2. Generating names
@@ -468,11 +478,11 @@ namer generate 5
 Output:
 
 ```
-basic-mortise
-focused-berry
-uncommon-broth
-decisive-dentil
-kingly-afforestation
+telling-adrenaline
+infinite-gonad
+close-span
+bloody-blow
+puffy-biology
 ```
 
 ### Example 2: Generating 10 IDs with custom parameters

@@ -177,5 +177,4 @@ PLANTS = [
     'yew',
     'yucca',
     'zinnia',
-
 ]

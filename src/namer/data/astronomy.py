@@ -123,5 +123,4 @@ ASTRONOMY = [
     'venus',
     'zenith',
     'zodiac',
-
 ]

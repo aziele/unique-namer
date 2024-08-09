@@ -254,5 +254,4 @@ CHEMISTRY = [
     'yttrium',
     'zinc',
     'zirconium',
-
 ]

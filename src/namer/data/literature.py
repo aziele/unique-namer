@@ -586,5 +586,4 @@ LITERATURE = [
     'zeugma',
     'zine',
     'zola',
-
 ]

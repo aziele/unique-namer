@@ -184,5 +184,4 @@ GEOGRAPHY = [
     'whirlpool',
     'whirlwind',
     'world',
-
 ]

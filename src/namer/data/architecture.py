@@ -133,5 +133,4 @@ ARCHITECTURE = [
     'vault',
     'veranda',
     'void',
-
 ]

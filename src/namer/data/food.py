@@ -216,5 +216,4 @@ FOOD = [
     'yeast',
     'yogurt',
     'zucchini',
-
 ]

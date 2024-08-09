@@ -705,5 +705,4 @@ MEDICINE = [
     'xeroderma',
     'yaws',
     'yellowfever',
-
 ]
