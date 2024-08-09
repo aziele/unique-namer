@@ -10,7 +10,7 @@ The generated names cover a wide range of thematic categories, including science
 
 ### Features
 
-* Over 18 million unique names
+* Over 19 million unique names
 * Nearly infinite unique identifiers
 * 20+ categories
 * Customizable names and categories
@@ -55,9 +55,9 @@ Categories allow you to customize generated names to fit the specific topic or t
         <tr>
             <td></td>
             <td>__all__</td>
-            <td>7,951</td>
+            <td>8,082</td>
             <td><code>awful-deadline</code></td>
-            <td>18,875,674</td>
+            <td>19,186,668</td>
             <td>10<sup>13</sup></td>
         </tr>
         <tr>
@@ -111,9 +111,9 @@ Categories allow you to customize generated names to fit the specific topic or t
         <tr>
             <td>:computer:</td>
             <td>computer_science</td>
-            <td>332</td>
+            <td>333</td>
             <td><code>funny-malware</code></td>
-            <td>788,168</td>
+            <td>790,542</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -244,9 +244,16 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>453,434</td>
             <td>10<sup>11</sup></td>
         </tr>
+        <tr>
+            <td>:satellite:</td>
+            <td>technology</td>
+            <td>228</td>
+            <td><code>awesome-python</code></td>
+            <td>541,272</td>
+            <td>10<sup>11</sup></td>
+        </tr>
     </tbody>
 </table>
-
 
 ## 2. Requirements
 
@@ -443,31 +450,32 @@ namer stats
 Output:
 
 ```
-Category           Nouns  Example                  Name_combs  ID_combs (4-char suffix)
-__all__             7951  godly-hygrometer         18,875,674  3e+13
-animals              461  quack-puffin              1,094,414  2e+12
-architecture         134  stirred-belvedere           318,116  5e+11
-astronomy            124  unequal-halo                294,376  5e+11
-biology              730  enjoyed-retrotransposon   1,733,020  3e+12
-chemistry            255  pretty-periodicity          605,370  1e+12
-countries            182  nonstop-lesotho             432,068  7e+11
-computer_science     332  foolish-union               788,168  1e+12
-economy              175  electoral-deposit           415,450  7e+11
-food                 217  various-aroma               515,158  9e+11
-geography            185  calculating-canal           439,190  7e+11
-general             5476  fragile-bail             13,000,024  2e+13
-history              156  creative-lincoln            370,344  6e+11
-literature           587  juicy-chapbook            1,393,538  2e+12
-math                 157  condemned-variable          372,718  6e+11
-medicine             706  mid-scalp                 1,676,044  3e+12
-microbiology         130  limping-zoonosis            308,620  5e+11
-molecular_biology    220  unlikely-replication        522,280  9e+11
-music                203  colonial-arrangement        481,922  8e+11
-physics              147  exclusive-masses            348,978  6e+11
-plants               178  asphalt-hydrangea           422,572  7e+11
-science              876  united-splicing           2,079,624  3e+12
-scientists           101  odd-pascal                  239,774  4e+11
-sports               191  sugary-slalom               453,434  8e+11
+Category           Nouns  Example                Name_combs  ID_combs (4-char suffix)
+__all__             8082  young-phages           19,186,668  3e+13
+animals              461  absurd-cuckoo           1,094,414  2e+12
+architecture         134  mutual-loggia             318,116  5e+11
+astronomy            124  grumpy-telescope          294,376  5e+11
+biology              730  immature-commensalism   1,733,020  3e+12
+chemistry            255  becoming-osmosis          605,370  1e+12
+countries            182  quintessential-gambia     432,068  7e+11
+computer_science     333  ruling-proxy              790,542  1e+12
+economy              175  enjoyed-savings           415,450  7e+11
+food                 217  amicable-pretzel          515,158  9e+11
+geography            185  key-antarctic             439,190  7e+11
+general             5476  regal-acappella        13,000,024  2e+13
+history              156  minimal-tribe             370,344  6e+11
+literature           587  prime-sestet            1,393,538  2e+12
+math                 157  bustling-settheory        372,718  6e+11
+medicine             706  phobic-lumbago          1,676,044  3e+12
+microbiology         130  squeamish-virologists     308,620  5e+11
+molecular_biology    220  merciless-betasheet       522,280  9e+11
+music                203  prepared-chorus           481,922  8e+11
+physics              147  likely-ohm                348,978  6e+11
+plants               178  wide-gladiolus            422,572  7e+11
+science              876  xenacious-ion           2,079,624  3e+12
+scientists           101  sour-lamarck              239,774  4e+11
+sports               191  concave-crew              453,434  8e+11
+technology           228  zygotic-circuits          541,272  9e+11
 ```
 
 ## 6.2. Generating names

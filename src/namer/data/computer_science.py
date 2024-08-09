@@ -166,6 +166,7 @@ COMPUTER_SCIENCE = [
     'iteration',
     'java',
     'javascript',
+    'jpeg',
     'kernel',
     'keyboard',
     'keyword',

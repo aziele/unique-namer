@@ -21,6 +21,7 @@ from .physics import PHYSICS
 from .plants import PLANTS
 from .scientists import SCIENTISTS
 from .sports import SPORTS
+from .technology import TECHNOLOGY
 
 categories = {
     'animals': [ANIMALS],
@@ -56,4 +57,5 @@ categories = {
     ],
     'scientists': [SCIENTISTS],
     'sports': [SPORTS],
+    'technology': [TECHNOLOGY],
 }
