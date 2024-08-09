@@ -6,6 +6,7 @@ from .biology import BIOLOGY
 from .chemistry import CHEMISTRY
 from .computer_science import COMPUTER_SCIENCE
 from .countries import COUNTRIES
+from .economy import ECONOMY
 from .food import FOOD
 from .geography import GEOGRAPHY
 from .general import GENERAL
@@ -33,6 +34,7 @@ categories = {
     'chemistry': [CHEMISTRY],
     'countries': [COUNTRIES],
     'computer_science': [COMPUTER_SCIENCE],
+    'economy': [ECONOMY],
     'food': [FOOD],
     'geography': [GEOGRAPHY],
     'general': [GENERAL],

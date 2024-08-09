@@ -55,9 +55,9 @@ Categories allow you to customize generated names to fit the specific topic or t
         <tr>
             <td></td>
             <td>__all__</td>
-            <td>7842</td>
+            <td>7,951</td>
             <td><code>awful-deadline</code></td>
-            <td>18,616,908</td>
+            <td>18,875,674</td>
             <td>10<sup>13</sup></td>
         </tr>
         <tr>
@@ -117,6 +117,14 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
+            <td>:moneybag:</td>
+            <td>economy</td>
+            <td>175</td>
+            <td><code>flowery-income</code></td>
+            <td>415,450</td>
+            <td>10<sup>11</sup></td>
+        </tr>
+        <tr>
             <td>:hamburger:</td>
             <td>food</td>
             <td>217</td>
@@ -135,7 +143,7 @@ Categories allow you to customize generated names to fit the specific topic or t
         <tr>
             <td>:star:</td>
             <td><b>general</b></td>
-            <td>5476</td>
+            <td>5,476</td>
             <td><code>curvy-flight</code></td>
             <td>13,000,024</td>
             <td>10<sup>13</sup></td>
@@ -387,11 +395,7 @@ You can retrieve the list of available categories using the `list_categories` fu
 import namer
 
 print(namer.list_categories())
-# ['animals', 'architecture', 'astronomy', 'biology', 
-#  'chemistry', 'computer_science', 'countries', 'food',
-#  'general', 'geography', 'history', 'literature', 'math',
-#  'medicine', 'microbiology', 'molecular_biology', 'music',
-#  'physics', 'plants', 'science', 'scientists', 'sports']
+# ['animals', 'architecture', ..., 'sports']
 ```
 
 ### 5.4. Adding custom categories
@@ -440,29 +444,30 @@ Output:
 
 ```
 Category           Nouns  Example                  Name_combs  ID_combs (4-char suffix)
-__all__             7842  keen-mesopotamia         18,616,908  3e+13
-animals              461  direful-aotus             1,094,414  2e+12
-architecture         134  colorful-frieze             318,116  5e+11
-astronomy            124  external-neptune            294,376  5e+11
-biology              730  embarrassed-endocytosis   1,733,020  3e+12
-chemistry            255  terrific-conformations      605,370  1e+12
-countries            182  relative-vanuatu            432,068  7e+11
-computer_science     332  laminated-microarray        788,168  1e+12
-food                 217  practical-colby             515,158  9e+11
-geography            185  proper-pole                 439,190  7e+11
-general             5476  essential-shampoo        13,000,024  2e+13
-history              156  improved-century            370,344  6e+11
-literature           587  soggy-sublime             1,393,538  2e+12
-math                 157  symmetric-minute            372,718  6e+11
-medicine             706  approximate-astigmatism   1,676,044  3e+12
-microbiology         130  dramatic-bacteroides        308,620  5e+11
-molecular_biology    220  solid-methionine            522,280  9e+11
-music                203  causal-falsetto             481,922  8e+11
-physics              147  liked-projectile            348,978  6e+11
-plants               178  jazzed-tree                 422,572  7e+11
-science              876  ripe-thymine              2,079,624  3e+12
-scientists           101  trusty-coulomb              239,774  4e+11
-sports               191  sudden-major                453,434  8e+11
+__all__             7951  godly-hygrometer         18,875,674  3e+13
+animals              461  quack-puffin              1,094,414  2e+12
+architecture         134  stirred-belvedere           318,116  5e+11
+astronomy            124  unequal-halo                294,376  5e+11
+biology              730  enjoyed-retrotransposon   1,733,020  3e+12
+chemistry            255  pretty-periodicity          605,370  1e+12
+countries            182  nonstop-lesotho             432,068  7e+11
+computer_science     332  foolish-union               788,168  1e+12
+economy              175  electoral-deposit           415,450  7e+11
+food                 217  various-aroma               515,158  9e+11
+geography            185  calculating-canal           439,190  7e+11
+general             5476  fragile-bail             13,000,024  2e+13
+history              156  creative-lincoln            370,344  6e+11
+literature           587  juicy-chapbook            1,393,538  2e+12
+math                 157  condemned-variable          372,718  6e+11
+medicine             706  mid-scalp                 1,676,044  3e+12
+microbiology         130  limping-zoonosis            308,620  5e+11
+molecular_biology    220  unlikely-replication        522,280  9e+11
+music                203  colonial-arrangement        481,922  8e+11
+physics              147  exclusive-masses            348,978  6e+11
+plants               178  asphalt-hydrangea           422,572  7e+11
+science              876  united-splicing           2,079,624  3e+12
+scientists           101  odd-pascal                  239,774  4e+11
+sports               191  sugary-slalom               453,434  8e+11
 ```
 
 ## 6.2. Generating names
