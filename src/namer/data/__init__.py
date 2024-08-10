@@ -1,6 +1,7 @@
 from .adjectives import ADJECTIVES
 from .animals import ANIMALS
 from .architecture import ARCHITECTURE
+from .art import ART
 from .astronomy import ASTRONOMY
 from .biology import BIOLOGY
 from .chemistry import CHEMISTRY
@@ -26,6 +27,7 @@ from .technology import TECHNOLOGY
 categories = {
     'animals': [ANIMALS],
     'architecture': [ARCHITECTURE],
+    'art': [ART],
     'astronomy': [ASTRONOMY],
     'biology': [
         BIOLOGY,

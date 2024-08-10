@@ -7,6 +7,7 @@ COMPUTER_SCIENCE = [
     'allen',
     'allocation',
     'alphabet',
+    'ampersand',
     'analytics',
     'antivirus',
     'api',
