@@ -1,7 +1,6 @@
 import pytest
 
-import namer
-
+from src import namer
 
 def test_stats():
 	stats = namer.stats()
