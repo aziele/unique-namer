@@ -106,6 +106,7 @@ ART = [
     'opacity',
     'opart',
     'orphism',
+    'painter',
     'painting',
     'paintings',
     'palette',

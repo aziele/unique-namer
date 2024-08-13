@@ -1,6 +1,7 @@
 # unique-namer
 
 ![PyPI - Version](https://img.shields.io/pypi/v/unique-namer?label=version&color=blue)
+![tests workflow](https://github.com/aziele/unique-namer/actions/workflows/run-tests.yml/badge.svg)
 
 ![cover](images/cover.png)
 
@@ -10,7 +11,7 @@ The generated names cover a wide range of thematic categories, including science
 
 ### Features
 
-* Over 19 million unique names
+* Over 17 million unique names
 * Nearly infinite unique identifiers
 * 25 categories
 * Customizable names and categories
@@ -57,7 +58,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>__all__</td>
             <td>8,199</td>
             <td><code>awful-deadline</code></td>
-            <td>19,464,426</td>
+            <td>17,250,696</td>
             <td>10<sup>13</sup></td>
         </tr>
         <tr>
@@ -65,7 +66,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>animals</td>
             <td>461</td>
             <td><code>tan-octopus</code></td>
-            <td>1,094,414</td>
+            <td>969,944</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -73,15 +74,15 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>architecture</td>
             <td>134</td>
             <td><code>blowing-facade</code></td>
-            <td>318,116</td>
+            <td>281,936</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:art:</td>
             <td>art</td>
-            <td>176</td>
+            <td>177</td>
             <td><code>nonchalant-picasso</code></td>
-            <td>417,824</td>
+            <td>372,408</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -89,7 +90,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>astronomy</td>
             <td>124</td>
             <td><code>ruthless-meteoroid</code></td>
-            <td>294,376</td>
+            <td>260,896</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -97,7 +98,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>biology</td>
             <td>730</td>
             <td><code>shiny-centriole</code></td>
-            <td>1,733,020</td>
+            <td>1,535,920</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -105,15 +106,15 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>chemistry</td>
             <td>255</td>
             <td><code>junior-peroxide</code></td>
-            <td>605,370</td>
-            <td>10<sup>12</sup></td>
+            <td>536,520</td>
+            <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:us:</td>
             <td>countries</td>
             <td>182</td>
             <td><code>satisfying-tanzania</code></td>
-            <td>432,068</td>
+            <td>382,928</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -121,7 +122,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>computer_science</td>
             <td>334</td>
             <td><code>funny-malware</code></td>
-            <td>792,916</td>
+            <td>702,736</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -129,7 +130,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>economy</td>
             <td>175</td>
             <td><code>flowery-income</code></td>
-            <td>415,450</td>
+            <td>368,200</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -137,7 +138,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>food</td>
             <td>217</td>
             <td><code>pretty-waffle</code></td>
-            <td>515,158</td>
+            <td>456,568</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -145,7 +146,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>geography</td>
             <td>185</td>
             <td><code>enjoyed-tsunami</code></td>
-            <td>439,190</td>
+            <td>389,240</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -153,7 +154,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td><b>general</b></td>
             <td>5,476</td>
             <td><code>curvy-flight</code></td>
-            <td>13,000,024</td>
+            <td>11,521,504</td>
             <td>10<sup>13</sup></td>
         </tr>
         <tr>
@@ -161,7 +162,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>history</td>
             <td>156</td>
             <td><code>cool-epoch</code></td>
-            <td>370,344</td>
+            <td>328,224</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -169,7 +170,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>literature</td>
             <td>587</td>
             <td><code>winning-limerick</code></td>
-            <td>1,393,538</td>
+            <td>1,235,048</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -177,7 +178,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>math</td>
             <td>157</td>
             <td><code>peachy-prime</code></td>
-            <td>372,718</td>
+            <td>330,328</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -185,7 +186,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>medicine</td>
             <td>706</td>
             <td><code>curly-diarrhea</code></td>
-            <td>1,676,044</td>
+            <td>1,485,424</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -193,7 +194,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>microbiology</td>
             <td>130</td>
             <td><code>crazy-bacteria</code></td>
-            <td>308,620</td>
+            <td>273,520</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -201,7 +202,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>molecular_biology</td>
             <td>220</td>
             <td><code>retired-oligonucleotide</code></td>
-            <td>522,280</td>
+            <td>462,880</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -209,7 +210,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>music</td>
             <td>203</td>
             <td><code>solid-contrabassoon</code></td>
-            <td>481,922</td>
+            <td>427,112</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -217,7 +218,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>physics</td>
             <td>147</td>
             <td><code>terrible-pressure</code></td>
-            <td>348,978</td>
+            <td>309,288</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -225,7 +226,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>plants</td>
             <td>178</td>
             <td><code>anonymous-cactus</code></td>
-            <td>422,572</td>
+            <td>374,512</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -233,7 +234,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>science</td>
             <td>876</td>
             <td><code>golden-hertz</code></td>
-            <td>2,079,624</td>
+            <td>1,843,104</td>
             <td>10<sup>12</sup></td>
         </tr>
         <tr>
@@ -241,7 +242,7 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>scientists</td>
             <td>101</td>
             <td><code>gifted-newton</code></td>
-            <td>239,774</td>
+            <td>212,504</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
@@ -249,15 +250,15 @@ Categories allow you to customize generated names to fit the specific topic or t
             <td>sports</td>
             <td>191</td>
             <td><code>intergalactic-olympics</code></td>
-            <td>453,434</td>
+            <td>401,864</td>
             <td>10<sup>11</sup></td>
         </tr>
         <tr>
             <td>:satellite:</td>
             <td>technology</td>
             <td>228</td>
-            <td><code>awesome-python</code></td>
-            <td>541,272</td>
+            <td><code>awesome-drone</code></td>
+            <td>479,712</td>
             <td>10<sup>11</sup></td>
         </tr>
     </tbody>
@@ -410,7 +411,7 @@ You can retrieve the list of available categories using the `list_categories` fu
 import namer
 
 print(namer.list_categories())
-# ['animals', 'architecture', ..., 'sports']
+# ['animals', 'architecture', ..., 'sports', 'technology']
 ```
 
 ### 5.4. Adding custom categories
@@ -458,33 +459,33 @@ namer stats
 Output:
 
 ```
-Category           Nouns  Example                   Name_combs  ID_combs (4-char suffix)
-__all__             8199  inventive-matter          19,464,426  3e+13
-animals              461  scintillating-meerkat      1,094,414  2e+12
-architecture         134  full-vault                   318,116  5e+11
-art                  176  ample-vellum                 417,824  7e+11
-astronomy            124  secret-jupiter               294,376  5e+11
-biology              730  alleged-electrophoresis    1,733,020  3e+12
-chemistry            255  proud-nitrogen               605,370  1e+12
-countries            182  temperate-oman               432,068  7e+11
-computer_science     334  antique-algorithm            792,916  1e+12
-economy              175  humorous-supply              415,450  7e+11
-food                 217  snotty-dish                  515,158  9e+11
-geography            185  distraught-solifluction      439,190  7e+11
-general             5476  vertical-proof            13,000,024  2e+13
-history              156  hip-perseus                  370,344  6e+11
-literature           587  definite-horrornovel       1,393,538  2e+12
-math                 157  protestant-curve             372,718  6e+11
-medicine             706  muddled-synovia            1,676,044  3e+12
-microbiology         130  gainful-lysin                308,620  5e+11
-molecular_biology    220  additional-bioenergetics     522,280  9e+11
-music                203  belligerent-metronome        481,922  8e+11
-physics              147  confidential-circuit         348,978  6e+11
-plants               178  ultimate-lentil              422,572  7e+11
-science              876  interesting-antimony       2,079,624  3e+12
-scientists           101  qualified-copernicus         239,774  4e+11
-sports               191  decent-ski                   453,434  8e+11
-technology           228  exultant-overclocking        541,272  9e+11
+Category           Nouns  Example                 Name_combs  ID_combs (4-char suffix)
+__all__             8199  gabby-moscovium         17,250,696  3e+13
+animals              461  ready-deer                 969,944  2e+12
+architecture         134  foolish-courtyard          281,936  5e+11
+art                  177  lonely-focal               372,408  6e+11
+astronomy            124  brawny-neutrino            260,896  4e+11
+biology              730  bewildered-genetics      1,535,920  3e+12
+chemistry            255  gray-manganese             536,520  9e+11
+countries            182  accessible-ghana           382,928  6e+11
+computer_science     334  numerous-ip                702,736  1e+12
+economy              175  exultant-globaltrade       368,200  6e+11
+food                 217  weird-pudding              456,568  8e+11
+geography            185  insulated-oasis            389,240  7e+11
+general             5476  inexpensive-poem        11,521,504  2e+13
+history              156  trashy-lincoln             328,224  6e+11
+literature           587  testy-motif              1,235,048  2e+12
+math                 157  figurative-thales          330,328  6e+11
+medicine             706  labored-tarsus           1,485,424  2e+12
+microbiology         130  correct-microbiota         273,520  5e+11
+molecular_biology    220  undisturbed-chromosome     462,880  8e+11
+music                203  flaky-raga                 427,112  7e+11
+physics              147  muffled-aperture           309,288  5e+11
+plants               178  uncommon-echinacea         374,512  6e+11
+science              876  worldwide-ionosphere     1,843,104  3e+12
+scientists           101  staking-maxwell            212,504  4e+11
+sports               191  retail-race                401,864  7e+11
+technology           228  demonic-digitalization     479,712  8e+11
 ```
 
 ## 6.2. Generating names
