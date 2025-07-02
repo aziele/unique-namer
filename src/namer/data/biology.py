@@ -205,7 +205,6 @@ BIOLOGY = [
     'irradiation',
     'kidneys',
     'kingdom',
-    'labia',
     'lactase',
     'larva',
     'leaf',

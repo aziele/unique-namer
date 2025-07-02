@@ -57,7 +57,6 @@ ANIMALS = [
     'boiga',
     'bombay',
     'bonobo',
-    'booby',
     'boomslang',
     'borzoi',
     'bovid',
